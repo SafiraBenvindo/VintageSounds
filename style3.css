@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Mea+Culpa&family=Monsieur+La+Doulaise&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 20px;
+   
+    font-family: 'Mukta';
+    display: grid;
+    grid-gap: 10px;  
+    color: #000000; 
+   background-color: #E0E0E0;
+}
+head{
+    margin: 0px;
+    height: 0px;
+    width: 0px;
+    margin:0px;
+    display: block;
+}
+  
+h1{
+    text-align: center;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 90px;
+    margin: 20px;
+    border: 20px;
+    color: #000000; 
+}
+p{
+    text-align: center;
+    margin: auto;
+    color: #000000; 
+    font-size: 20px;
+   
+}
+a{
+    padding: 0;
+    margin: 0px 24px 24px;
+    max-width: 100%;
+    font-family: 'Mukta';
+    display: grid;
+    grid-gap: 10px;
+    color: #000000;
+    background-color: #E0E0E0; 
+    text-decoration: none;  
+    font-size: 18px;
+}
+fieldset{
+    width: 700px;
+    margin: 20px;
+    border: #000000 solid;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+input{
+   width: 800px;
+    height: 70px;
+    margin-right: 10px ;
+    margin-left: 10px;
+    gap: 10px;
+    background:  #00000052 solid;
+    border: #000000 solid;
+    border-radius: 8px;
+}
+label{
+    margin: auto;
+
+}
+.menu{
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.botao{
+    background-color: #888888;
+    color: #FFFFFF; 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius:4px; 
+    width: 100px;
+    display: grid;
+
+}
+.campo{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-row-start: 5;
+    grid-row-end: 3;
+    
+   
+}
+
+.campo2{
+    width: 100%;
+    margin: 10px;
+    grid-row:5;
+    
+}
+
+
+
